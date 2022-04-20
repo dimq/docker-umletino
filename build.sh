@@ -22,3 +22,4 @@ docker cp build:/tmp/html .
 docker rm -f build
 
 docker build -t $REPO:$TAG -f ${DOCKERFILE}.release .
+#yo
